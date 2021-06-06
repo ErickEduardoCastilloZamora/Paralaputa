@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.teoriaC {
+    font-family: georgia, times, serif;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    background-image: url('fondo2.jpeg');
+}
+
+h1 {
+    color: white;
+}
+
+.uno {
+    left: 30px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.dos {
+    left: 700px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.tres {
+    left: 30px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.cuatro {
+    left: 700px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.cinco {
+    left: 30px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 250px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.seis {
+    left: 700px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 700px;
+    height: 350px;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.siete {
+    left: 330px;
+    position: relative;
+    background: rgb(255, 1, 1);
+    font-family: georgia, times, serif;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    margin-top: 4rem;
+}

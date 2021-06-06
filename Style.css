@@ -1,0 +1,124 @@
+    * {
+        margin: 0px;
+        border: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        cursor: url("tiki.jpg"), pointer;
+        font-family: georgia, times, serif;
+        color: #333;
+        font-size: 1.3rem;
+        line-height: 1.4em;
+        background-image: url('paris.png');
+        background-size: cover;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        line-height: 1.3em;
+    }
+    
+    p {
+        margin-bottom: 1.6 em;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .containerr {
+        width: 70%;
+        margin: 0 auto;
+        background: linear-gradient( 90 deg, rgb(0, 215, 253));
+        opacity: 1;
+    }
+    
+    .header {
+        background: red;
+        color: white;
+        padding: 2rem 0;
+    }
+    
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .logo-nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo {
+        letter-spacing: 15px;
+        font-size: 1.4em;
+    }
+    
+    .navigation ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover {
+        background: black;
+    }
+    
+    .footer {
+        background: rgb(213, 255, 255);
+        padding: 3rem 0;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    
+    .redes_sociales a {
+        display: inline-flex;
+        color: #ffffff;
+        height: 40px;
+        width: 40px;
+        background-color: #000000;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 0 6px;
+        transition: transform 0.4s;
+    }
+    
+    .redes_sociales a:hover {
+        transform: scale(1.3);
+    }
+    
+    .redes_sociales a.facebook {
+        background-color: #3c70a4;
+    }
+    
+    .redes_sociales a.instagram {
+        background-color: #bb7171;
+    }
+    
+    .redes_sociales a.youtube {
+        background-color: #c72c41;
+    }
+    
+    .redes_sociales a.twitter {
+        background-color: #5bd1d7;
+    }
+    
+    .redes_sociales a.tiktok {
+        background-color: #646464;
+    }

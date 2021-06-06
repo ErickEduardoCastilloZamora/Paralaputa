@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Style_formulario.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="Index.html" class="logo">MIRACULOUS</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="teorias.html">Teorías</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="formulario.php">Test</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="form">
+        <form action="Dguardados.php" method="post">
+            <h1>
+                <center>Eleccion de Personaje</center>
+            </h1>
+            <br>
+            <p>
+                <center>Nombre completo</center>
+            </p>
+            <input class="cajita" type="text" name="Nombre" placeholder="Nombre completo" required>
+            <br>
+            <p>
+                <center>Edad</center>
+            </p>
+            <input class="cajita" type="int" name="Edad" placeholder="Edad" required>
+            <br>
+            <p>
+                <center>Direccion</center>
+            </p>
+            <input class="cajita" type="varchar" name="Direccion" placeholder="Dirección" required>
+            <br>
+            <p>
+                <center>Telefono</center>
+            </p>
+            <input class="cajita" type="int" name="Teléfono" placeholder="Teléfono" required>
+            <br>
+            <p>
+                <center>Personaje</center>
+            </p>
+            <input class="cajita" type="text" name="Personaje" placeholder="Personaje" required>
+            <br>
+            <br>
+            <input class="caj" type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
